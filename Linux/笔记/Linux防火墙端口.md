@@ -91,6 +91,7 @@ centos7
     查看是否拒绝： firewall-cmd --query-panic
 
     firewall-cmd --zone=public --add-port=80/tcp --permanent （–permanent永久生效，没有此参数重启后失效）
+    查看端口开放状态：firewall-cmd --query-port=80/tcp
     重新载入:firewall-cmd --reload
     删除：firewall-cmd  --remove-port=80/tcp --permanent
 
