@@ -12,6 +12,15 @@
 
 2;接收数据
 
-    int i = sc.nextInt(); // 表示将键盘录入的值作为int数返回。这时候i就是你键盘输入的值
+    sc.next();      //接收键盘输入的字符串
+    sc.nextLine();  //接收键盘输入的字符串，但空格不在认为是多个字符串的间隔，而是字符串的一部分
+    sc.nextInt();   // 表示将键盘录入的值作为int数返回。
+
+    sc.nextDouble();//作为double数
+    sc.nextShort(); //作为short数
+    sc.nextFloat(); //作为float数
+    sc.nextBoolean();//作为boolean数
+    sc.nextByte();  //作为byte数
+    
 
    
