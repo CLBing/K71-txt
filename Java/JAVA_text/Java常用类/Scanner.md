@@ -1,12 +1,12 @@
-## Scanner类常见用法
+## Scanner 类常见用法
 
-**Scanner 类在java.util包下**
+**Scanner 类在 java.util 包下**
 
 - import java.util.Scanner;
 
 ### 数据输入
 
-1;创建Scanner对象。
+1;创建 Scanner 对象。
 
     Scanner sc = new Scanner(System.in);// 创建Scanner对象，sc表示变量名，其他均不可变
 
@@ -21,6 +21,3 @@
     sc.nextFloat(); //作为float数
     sc.nextBoolean();//作为boolean数
     sc.nextByte();  //作为byte数
-    
-
-   

@@ -4,29 +4,26 @@
 
 使用步骤
 
-1. 导入Random包
+1. 导入 Random 包
 
-    import java.util.Random;
-    导包需要出现再类定义上面
+   import java.util.Random;
+   导包需要出现再类定义上面
 
 2. 创建对象
-   
-    Random r = new Random();  
-    r是变量名可以变，其他不允许变
+
+   Random r = new Random();  
+   r 是变量名可以变，其他不允许变
 
 3. 产生随机数
 
-    int num = r.nextInt(10);  
-    // 10代表的是一个范围，如果括号写10，产生的随机数就是0-9，括号写20，参数的随机数则是0-20
+   int num = r.nextInt(10);  
+   // 10 代表的是一个范围，如果括号写 10，产生的随机数就是 0-9，括号写 20，参数的随机数则是 0-20
 
 例如:
 
     Random i=new Random();
     int num=i.nextInt(10);
     System.out.println(num);
-
-
-
 
 猜随机数游戏
 
