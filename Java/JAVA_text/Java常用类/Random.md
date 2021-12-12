@@ -9,7 +9,7 @@
    import java.util.Random;
    导包需要出现再类定义上面
 
-2. 创建对象
+2. 创建随机数对象
 
    Random r = new Random();  
    r 是变量名可以变，其他不允许变
